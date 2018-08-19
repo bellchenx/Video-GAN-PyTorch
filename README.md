@@ -1,5 +1,6 @@
 # Video GAN Experiment Platform
 Video GAN Experiment Platform was developed by Bell Chen in Feb 2018 for testing neural network structure of video generation. This platform is powered by python, pytorch, ffmpeg, and other dependences.  
+
 It is integrated with muiltiple functions that are needed to do experiment, like spliting videos, generating datasets, training different networks, and generating a video with comparison of original data. I designed a frame traverse slider which can generate arbitrary sequence of frames as network’s input.
 
 All the experiment details are in my blog.
@@ -7,10 +8,12 @@ https://bellchen.me/3d-gan-for-video-generation/
 
 # Frame Slider
 During experiments, due to the slow computational speed of python object class, I optimized the allocation of GPU and CPU by reducing algorithm complexity and increasing batch-size so that the network-trainer can occupy full GPU with least interval caused by slow “for” loop computed by CPU.  
+
 According to test result, the old version of frame slider occupy 96% of GPU usage. In comparison, the new slider can use full GPU core. On average, the training speed on laptop with GTX960M rises 30%.
 
 # Network Structure
 There are 2 main neural networks integrated in this platform - one generator and one discriminator. The loss of two network can be set to DC-GAN loss and mixed losses. I designed fully-convolutional network that doubles the number of channels for every layer when forward-propagating the network.  
+
 In generator, there are several type of networks that can be mannually selected using argument '-net'. In this version, it has UNet-based generator and ResNet-based generator. Because of the copyright, I will not release ResNet-based generator V3-5's codes until formal paper is published.
 
 # Installation
@@ -44,6 +47,7 @@ Or editing 'main.py' to see the function of optional argments.
               
 # Copyright
 This code is owned by Bell Chen. You can use it and edit it anyway you want only for non-commercial education and personal research. If you are plan to publish a non-commercial research paper using this code, please note the original author of this code and let me know.  
+
 If you are using this platform for any commercial use including research and development, please contact me and ask permission.  
 
 Contact Email: chenbell [at] live.com
