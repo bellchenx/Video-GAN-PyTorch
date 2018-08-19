@@ -19,11 +19,11 @@ According to test result, the old version of frame slider occupy 96% of GPU usag
 # Installation
 This network was initially developed on PyTorch 0.3. But after tests, it can successfully run on PyTorch 0.4, so we do not care the version of dependencies, just upgrade to the newest version.
 
-1. Anaconda (strongly recommend):
+1. Anaconda (recommend):
   https://conda.io/docs/user-guide/install/index.html
 2. PyTorch (GPU is strongly recommended):
   https://pytorch.org/
-3. ffmpeg: 
+3. ffmpeg (needed for some functions):  
   macOS terminal: 
   ```
   brew install ffmpeg
