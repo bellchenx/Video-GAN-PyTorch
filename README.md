@@ -34,7 +34,7 @@ This network was initially developed on PyTorch 0.3. But after tests, it can suc
   ```
 
 # Usage
-Clone this code to your computer and locate into the main folder. Just run 'main.py' in python.
+Clone this code to your computer and locate into the main folder. Just run 'main.py' in python.  
 terminal:
 ```
   python main.py [arguments]
