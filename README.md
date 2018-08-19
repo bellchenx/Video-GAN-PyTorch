@@ -54,7 +54,7 @@ This code is owned by Bell Chen. You can use it and edit it anyway you want only
 
 If you are using this platform for any commercial use including research and development, please contact me and ask permission.  
 
-Contact Email: chenbell [at] live.com
+Contact Email: chenbell [at] live.com  
 '''
 The copyright of the code is inviolable. If you want any commercial use, please contact the author.  
 Los derechos de autor del código son inviolables. Si existe algún uso comercial, comuníquese con el autor.  
