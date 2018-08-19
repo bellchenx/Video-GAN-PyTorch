@@ -1,7 +1,7 @@
 # Video GAN Experiment Platform
 Video GAN Experiment Platform was developed by Bell Chen in Feb 2018 for testing neural network structure of video generation. This platform is powered by python, pytorch, ffmpeg, and other dependences. It is integrated with muiltiple functions that are needed to do experiment, like spliting videos, generating datasets, training different networks, and generating a video with comparison of original data. I designed a frame traverse slider which can generate arbitrary sequence of frames as network’s input.
 
-**All the experiment details are in my blog.
+All the experiment details are in my blog.
 https://bellchen.me/3d-gan-for-video-generation/
 
 # Frame Slider
